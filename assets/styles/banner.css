@@ -13,8 +13,21 @@
     width: 90%;
 }
 
-@media screen and (max-width: 840px){
+@media (max-width: 1024px){
     .banner {
         display: none;
     }
 }
+
+@media screen and (max-width: 768px){
+    .banner {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .banner {
+        display: none;
+    }
+}
+

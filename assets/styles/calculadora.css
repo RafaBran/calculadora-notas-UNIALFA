@@ -27,6 +27,7 @@
     color: #ffffff;
     font-family: var(--fonte-padrao);
     font-weight: bold;
+    text-align: center;
 }
 
 
@@ -68,6 +69,7 @@
     font-size: 1.5rem;
     font-weight: bold;
     font-family: var(--fonte-padrao);
+    text-align: center;
 }
 
 .historico__notas {
@@ -201,4 +203,72 @@
 width: 0px;
 }
 
+/* RESPONSIVIDADE */
 
+@media (max-width: 1300px){
+    .banner {
+        display: none;
+    }
+    .calculadora {
+        width: 100%;
+    }
+
+    .titulo {
+        font-size: 2rem;
+
+    }
+    .titulo__registro {
+        font-size: 1.3rem;
+    }
+    .botao {
+        font-size: 0.8rem ;
+    }
+
+} 
+
+@media (max-width: 1024px){
+    .label {
+        font-size: 0.8rem;
+    }
+    .titulo {
+        font-size: 2rem;
+
+    }
+  
+
+} 
+
+@media screen and (max-width: 839px){
+    .label {
+        font-size: 0.7rem;
+    }
+    .botao {
+        font-size: 0.7rem ;
+    }
+    .titulo__notas{
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 755px){
+    .label {
+        font-size: 0.65rem;
+    }
+    .titulo__notas{
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 715px){
+    .label {
+        font-size: 0.6rem;
+    }
+    .feedback__titulo{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 555px){
+    .feedback__titulo{
+        font-size: 1rem;
+    }
+}
