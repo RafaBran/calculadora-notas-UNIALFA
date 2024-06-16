@@ -266,9 +266,26 @@ width: 0px;
     .feedback__titulo{
         font-size: 1.2rem;
     }
+    .registro__historico {
+        width: 60%;
+    }
+    .registro__feedback{
+        width: 30%;
+
+    }
+
 }
 @media screen and (max-width: 555px){
+    .titulo {
+        font-size: 1.5rem;
+    }
+    .titulo__registro {
+        font-size: 1rem;
+    }
     .feedback__titulo{
         font-size: 1rem;
+    }
+    .registro__historico {
+        width: 70%;
     }
 }
