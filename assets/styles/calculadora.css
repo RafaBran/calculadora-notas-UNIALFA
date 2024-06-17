@@ -273,6 +273,9 @@ width: 0px;
         width: 30%;
 
     }
+    .titulo {
+        margin: 0;
+    }
 
 }
 @media screen and (max-width: 555px){
